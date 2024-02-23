@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0812.0353                               -->
+<workbook original-version='18.1' source-build='2022.2.1 (20222.22.0812.0353)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Scopus Robot animal husbandry Year Data' inline='true' name='federated.0718j600lucm5714kdh511q2kifw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Scopus Robot animal husbandry Year Data' name='textscan.073o7ff059emp417yevfy0qvkb7a'>
+            <connection class='textscan' directory='C:/Users/13653/OneDrive - Cardiff Metropolitan University/Eureka Robotics Centre/PhD 研究/畜牧业/PhD Meeting/7/Data' filename='Scopus Robot animal husbandry Year Data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.073o7ff059emp417yevfy0qvkb7a' name='Scopus Robot animal husbandry Year Data.csv' table='[Scopus Robot animal husbandry Year Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='YEAR' ordinal='0' />
+            <column datatype='integer' name='Number' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.073o7ff059emp417yevfy0qvkb7a' name='Scopus Robot animal husbandry Year Data.csv' table='[Scopus Robot animal husbandry Year Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='YEAR' ordinal='0' />
+            <column datatype='integer' name='Number' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Scopus Robot animal husbandry Year Data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YEAR]</local-name>
+            <parent-name>[Scopus Robot animal husbandry Year Data.csv]</parent-name>
+            <remote-alias>YEAR</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Scopus Robot animal husbandry Year Data.csv_0D2A83D0D3CE40EC88B989F0ACCC3049]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number]</local-name>
+            <parent-name>[Scopus Robot animal husbandry Year Data.csv]</parent-name>
+            <remote-alias>Number</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Scopus Robot animal husbandry Year Data.csv_0D2A83D0D3CE40EC88B989F0ACCC3049]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Year' datatype='integer' name='[YEAR]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Scopus Robot animal husbandry Year Data.csv' datatype='table' name='[__tableau_internal_object_id__].[Scopus Robot animal husbandry Year Data.csv_0D2A83D0D3CE40EC88B989F0ACCC3049]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Scopus Robot animal husbandry Year Data.csv' id='Scopus Robot animal husbandry Year Data.csv_0D2A83D0D3CE40EC88B989F0ACCC3049'>
+            <properties context=''>
+              <relation connection='textscan.073o7ff059emp417yevfy0qvkb7a' name='Scopus Robot animal husbandry Year Data.csv' table='[Scopus Robot animal husbandry Year Data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='integer' name='YEAR' ordinal='0' />
+                  <column datatype='integer' name='Number' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run><![CDATA[<Scopus Robot Animal Husbandry Documents by Year>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Scopus Robot animal husbandry Year Data' name='federated.0718j600lucm5714kdh511q2kifw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0718j600lucm5714kdh511q2kifw'>
+            <column datatype='integer' name='[Number]' role='measure' type='quantitative' />
+            <column caption='Year' datatype='integer' name='[YEAR]' role='dimension' type='quantitative' />
+            <column-instance column='[YEAR]' derivation='None' name='[none:YEAR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number]' derivation='Sum' name='[sum:Number:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0718j600lucm5714kdh511q2kifw].[sum:Number:qk]' scope='rows' value='Record Count' />
+            <format attr='title' class='0' field='[federated.0718j600lucm5714kdh511q2kifw].[none:YEAR:qk]' scope='cols' value='Year of Publication' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0718j600lucm5714kdh511q2kifw].[sum:Number:qk]</rows>
+        <cols>[federated.0718j600lucm5714kdh511q2kifw].[none:YEAR:qk]</cols>
+      </table>
+      <simple-id uuid='{2BFD9BD3-E202-4996-A84D-66B33E81DB3E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0718j600lucm5714kdh511q2kifw].[none:YEAR:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9E31E056-1A56-4A5E-81F9-3ADCA009901F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAM70lEQVR4nO3dS28bWX4F8FMPFt8USZESLVmKX61Wd8aN7lkkSObL9acZZJNFgFlMzyKr
+      AB3MYjCTGOmexO12+ylRlPhmsV73ZuHmeAaSi666IqnSPT/AMCDr8pRoHVJV5F/XkFJKEGnK
+      VL2BZf1R6ZeUUnk9s9e7PmvZygUQQsT+exRFK739VWVLKTearfKNoHqfq6zPWrZyAYiyjAUg
+      rbEApLVEBQi9GV697WI+HeHsYriqYyJaGzvJJ7998xpv3pxhvLePAgS261UIIWJP2IQQCMMw
+      9QEuu/1la9NmLzI3mZ32JPw67vO067OWnagArfYOen0XjvAw8QDTNCGlhGVZH1wThiFsO1HM
+      X0gpYRhG7O3HUcleFG9T2cC7+3fd2arrs5ad6LOLlS189csvEgUQ3WQ8CSatsQCkNRaAtMYC
+      kNZYANIaC0BaYwFIaywAaY0FIK2xAKQ1FoC0xgKQ1lgA0hoLQFpjAUhryUYifRc/vXwDdzJE
+      93ywqmMiWptEAzG9bhe90z4C0YAtBUSjxpHIFWZzJHL1axMVQIgIEAHCwMc8kByJXGE2wJHI
+      daxN9Nl7hw+wd/ggUQDRTcaTYNIaC0BaYwFIaywAaY0FIK2xAKQ1FoC0xgKQ1lgA0hoLQFpj
+      AUhrLABpjQUgrbEApDUWgLSWaB4gDAMEQQjHyUEIIJdLP/hAdBMk+g723Cm++/4H1Js1eIHE
+      559+AmD52GDasUIp5V/+pKWyVnW9yte9qezrWJ+l7EQFKJUr2L1zB1HoAXj/nxQ3uyqEgGEY
+      iQ5qYfHNrzIbq5qdlmr24jbWna26PmvZyX6GkRK7nQ4QupgFgGEYS2d2VeZqF9/8KuvTrlWd
+      CVbNBtLPBKtkq67PWnaiAhhWDg4A2GU4hUQ5RDcSrwKR1lgA0hoLQFpjAUhrLABpjQUgrbEA
+      pDUWgLTGApDWWADSGgtAWmMBSGssAGmNBSCtJSqAlBLT2QxRGMDzg1UdE9HaJJoH6L5+jv7c
+      RMEM4AYSx0ePlk5sqUx0qa5XXQukn8rKarbq+qxlJxuKjwRm510EzTYK1vtxwVXNBC/WbnIu
+      V0UWs69jfZayk+0SeXAP+UoDW5Ui3DWNRALgSOQas1XXZy072UikaaG13QQA5PKJcohuJF4F
+      Iq2xAKQ1FoC0xgKQ1lgA0hoLQFpjAUhrLABpjQUgrbEApDUWgLTGApDWrixAGIaIwhDqb8ol
+      utkuFUBKH//663/BN7/9d/ibOCKiNbr0dmjDcPD4i2OM5saldogowHA8Q7VcRBBJFAt8TzRl
+      25XzAJZtA4guffzs1SsMhIVBvwcvEPj0k9WORKpukpflbIAjketYe+U5QKPZhDubXfp4sVbB
+      +PQEngRMhZ0Ak7iO8cCsUR0DpY939USYlIjC6NJJcLm6hYfHx6iWHMzD9yORcaN7Qgil0T4g
+      /WigSrbqWKJK9sKmslXvtyxlX1mA09NTBL53qQCW7aBRdwAAFSfVMRLdKJfqEroT1JptWMVi
+      wk2EibLnUgGGJy9x5krkZYRwE0dEtEaXHuSb9z6F//oVrK++An/Kodvu0jPAfDzAt9/+J775
+      zW/hbeKIiNbo0jNAsdbEr/75nzCLTBQ2cUREa3TlNaOLt8/x7e//CP76W7rtrizAxAe2csYV
+      rwUT3S5XXunc27+LfGmK9L/hkSgbrnwG8L0ZzvtDrOfNDkSbc2UB3NkF+qcTvg5At94V8wAC
+      tlNBoWxxXIxuvUvf4yff/zfejkYYzEKeA9Ctd+kkuLp7B8WJh/uHVY5E0q13qQCV5g7+obmz
+      iWMhWrvEP+a7rovQn2M6m6/ieIjWKtkmefMp/vCn77C/24AXShw9esiRyBVkq4wUqmarrs9a
+      dqJngG63iyiYwQsEOLG3WsaaRk51Z8iEw6dhGAIygh8BpUIeURTF7swXhiFsO91ozaLRaXcN
+      VMlW3SVSNRtIPxKpkq26PmvZiZPeBdiwc0lXEt08fK2LtMYCkNZYANIaC0BaYwFIaywAaY0F
+      IK2xAKQ1FoC0xgKQ1lgA0hoLQFpjAUhrLABpLVEBQn+O3sUAgediPHVXdUxEa5NsJDLw8fyH
+      Z6i36hCRROXhA0gpEUUf/i2iy/59GdXxurTZizkhlfWq2Wk3ylO9z1WPPUvZiQoQRSFMKRAK
+      ARm9/89ZNr6nMt632IhPZX1aUsqNZauuZ/bHSVSAQqmKo7//HMV8DkG0nl0il91+nKzuErnp
+      HSq13yXyQyw7h8rPs5AWd9CjW4BXgUhrLABpjQUgrbEApDUWgLTGApDWWADSGgtAWmMBSGss
+      AGmNBSCtsQCkNRaAtMYCkNYSFUBEAU7PzuHPZxiOp6s6JqK1SfSufm/uYdTrYTR1YEQCtcry
+      kUghxMZGIlWyF7tEbir7r/9eZ7bq+qxlJyrAdHQB3zBRiEJ4wfuPx03hSCk3NhGmmq26flMT
+      YSrZquuzlp2oAI32HZS2AuQdB5F8PxJ5G2eCF4++m8herNNlLneT2YlHIkuLkchEMUQ3E68C
+      kdZYANIaC0BaYwFIaywAaY0FIK2xAKQ1FoC0xgKQ1lgA0hoLQFpjAUhrLABpjQUgrbEApLVE
+      8wDz6QivTvvIwcfIk3j82dGqjotoLZJtkleuoVKcwvOBalFCCAEhROzsqhACYRimPsBlt79s
+      bdrs65jLVc1OOw99Hfd52vVZy044E9zHcDRCp7MLL3w3syqlhGV9eD4sDEPYdrod9RYzwXG3
+      H0cle1G8TWUD6WeCVbJV12ctO9Fnl2sNfFprJAogusl4EkxaYwFIaywAaY0FIK2xAKQ1FoC0
+      xgKQ1lgA0hoLQFpjAUhrLABpjQUgraUqgDcb43wwvu5jIVq7VO87fds9hxAC2/XqdR/P34iE
+      xMn5BIaZbscQEQmYVvrtdiCxmWzx8+40G8hWXZ+17HRvvI58zPxUKxPpj13823/8GUi5Y85i
+      niDd2nd/p92tJ6vZquuzlm3IFCNPf72BXBRFKx2IEUJwIGaN2arrs5adqgALHzOuKIRQ3jUw
+      7SOCSrbqJnlZzVZdn7Xs9FXFxz1CqW5zqrJtpmr24jZ0ylZdn7VspWcAoqxTega4kpR49uQJ
+      mvc6ePr0BEVbYj73UKo34c19fPn4s9jl7mSI190BhDdGYOQg5lM45S1Y0RxObReHe62YbIGn
+      T/4HzYM2fvzxFIWcifncw/1HD/B/z17iH3/5RWz2dDzAyfkI4WwAYRUQTMdwSmX4foCHR8co
+      F3Kx2f/75Dts7zXx04sz5B0Lc89HoZBHIAx8+Yv4r3sy7ONsMMV8fA7DzsF1fZRKBcynU3Tu
+      H2O3UY5d/+aHp3AaW3jx4jXylokgFGju7OK8e4LPH3+JvP3hZxN/PsWzFyfImyEm8wiGDGAX
+      qqjZLqZWB58cbsdmv/zz9yh3tvHjj2/hmBIiEihUazCtHB7dO4w9mffcCZ6/7iInPUx9A0bk
+      winXMLk4R333Lh4c7sVn//QDZjMXUzdEoeAgmM+QrzUwm83x1ePPY59FZ+PBCl4IMwy0Wi3Y
+      5QaquRDTeQQnZ8CPTNQqhaXLi5UtVIoOdtptjIYjmJYFKSWcYhV7nfj/CBgmWq1t5KtNFM0A
+      rh8hZxt49vwlAtdFtCS7XK2jnM+h3W5jNBzCtG2EoYe5O0O31/+I7CZKW004co55IGCbgITx
+      Ub9apbLVQNGx3n3dUx+tegmD4RA7u7vw/WDp+marDStfRLOSh7SLsIUHLwixd3APjhX/o5RT
+      KKNeLaHdbmMyHqHVbmHYP8Pbbh+TyfLXe7ZbbViFKholE5ZTBgIXg+EYF+c9+FH8r3bJFyvY
+      KhfRbu9gPB79fN/3YVnOR91vtmXjYH8Hzc5dTMcT7HdamPgGGrX4Bwzg3dU26+uvv/566Wcm
+      ISVOe6cIQwnDyOH46D7c0MD9/W0Iw0GlVIxdPhleoHcxhJPPY+fOPkp5C9V6HZPBAFa+iGLe
+      ickWODk7RRQBVq6AowcH8CILnx09ws5OC86SKwTjQQ/ngzEcJ4/O/iEKNrDdOUDJsbGzuwM7
+      7hqziPD27BRCGLDzZTy6t4cANvZadeSLFVTK8V/38OIM/dEUjpNDZ/8Agefh4dExZtMp7uy2
+      YS45HzjrncD1I5iGhcODPYTIob1VxNl5H/V6HWbMawrebIzTsx5yTgGNdgeWCNC5ex/3/+4Q
+      9a0qcnb8lbBu7xSeL2AYNg4POoisIo4fHgKmjcZWNfZR2J0M0e2dI5cvoLXTgRH5uHP3AXJm
+      iO2dDpwl2f3zHgKzBDua4+HREQaTOR7ebcEXJirlUuyzjz+f8RyA9Mb3ApHWWADS2vVfBSK6
+      YU6ePcF/PT3B0S++QOj7KBkecrVtTPsjngOQBqTEN7/7BkUzwsyuoQIXF7Mx8uY+C0B6GA6H
+      KOQMPH3RRa1gIF/ZQj5XZAFIb/8Pa8NWYA2rKbQAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

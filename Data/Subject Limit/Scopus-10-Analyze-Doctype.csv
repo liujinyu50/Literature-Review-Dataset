@@ -1,0 +1,13 @@
+﻿Scopus-10-Analyze-Doctype
+
+"Your query : (TITLE-ABS-KEY(""Robot"" AND ""Animal husbandry"") AND ( LIMIT-TO ( SUBJAREA,""ENGI"" ) OR LIMIT-TO ( SUBJAREA,""AGRI"" ) OR LIMIT-TO ( SUBJAREA,""COMP"" ) ) )"
+
+
+Number of results : 10
+
+"DOCUMENT TYPE",
+"Article","62"
+"Conference Paper","40"
+"Review","10"
+"Retracted","3"
+"Book Chapter","2"

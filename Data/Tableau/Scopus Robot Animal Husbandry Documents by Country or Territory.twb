@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0812.0353                               -->
+<workbook original-version='18.1' source-build='2022.2.1 (20222.22.0812.0353)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Scopus Robot animal husbandry Countries Data' inline='true' name='federated.0rg77fw1j0s6ca12tl9uj0qdpq8b' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Scopus Robot animal husbandry Countries Data' name='textscan.1ghdct60p8h63e112wf9w1cyahsg'>
+            <connection class='textscan' directory='C:/Users/13653/OneDrive - Cardiff Metropolitan University/Eureka Robotics Centre/PhD 研究/畜牧业/PhD Meeting/7/Data' filename='Scopus Robot animal husbandry Countries Data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ghdct60p8h63e112wf9w1cyahsg' name='Scopus Robot animal husbandry Countries Data.csv' table='[Scopus Robot animal husbandry Countries Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='COUNTRY/TERRITORY' ordinal='0' />
+            <column datatype='integer' name='Number' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1ghdct60p8h63e112wf9w1cyahsg' name='Scopus Robot animal husbandry Countries Data.csv' table='[Scopus Robot animal husbandry Countries Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='COUNTRY/TERRITORY' ordinal='0' />
+            <column datatype='integer' name='Number' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Scopus Robot animal husbandry Countries Data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COUNTRY/TERRITORY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[COUNTRY/TERRITORY]</local-name>
+            <parent-name>[Scopus Robot animal husbandry Countries Data.csv]</parent-name>
+            <remote-alias>COUNTRY/TERRITORY</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Scopus Robot animal husbandry Countries Data.csv_6451FDD63E714CBAA0AC4C7087F91DBC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number]</local-name>
+            <parent-name>[Scopus Robot animal husbandry Countries Data.csv]</parent-name>
+            <remote-alias>Number</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Scopus Robot animal husbandry Countries Data.csv_6451FDD63E714CBAA0AC4C7087F91DBC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Country/Territory' datatype='string' name='[COUNTRY/TERRITORY]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Scopus Robot animal husbandry Countries Data.csv' datatype='table' name='[__tableau_internal_object_id__].[Scopus Robot animal husbandry Countries Data.csv_6451FDD63E714CBAA0AC4C7087F91DBC]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Scopus Robot animal husbandry Countries Data.csv' id='Scopus Robot animal husbandry Countries Data.csv_6451FDD63E714CBAA0AC4C7087F91DBC'>
+            <properties context=''>
+              <relation connection='textscan.1ghdct60p8h63e112wf9w1cyahsg' name='Scopus Robot animal husbandry Countries Data.csv' table='[Scopus Robot animal husbandry Countries Data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='COUNTRY/TERRITORY' ordinal='0' />
+                  <column datatype='integer' name='Number' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='&lt;Scopus Robot animal husbandry Countries Documents by Country or Territory&gt;'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run><![CDATA[<Scopus Robot Animal Husbandry Documents by Country or Territory>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Scopus Robot animal husbandry Countries Data' name='federated.0rg77fw1j0s6ca12tl9uj0qdpq8b' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0rg77fw1j0s6ca12tl9uj0qdpq8b'>
+            <column caption='Country/Territory' datatype='string' name='[COUNTRY/TERRITORY]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='integer' name='[Number]' role='measure' type='quantitative' />
+            <column-instance column='[COUNTRY/TERRITORY]' derivation='None' name='[none:COUNTRY/TERRITORY:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number]' derivation='Sum' name='[sum:Number:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0rg77fw1j0s6ca12tl9uj0qdpq8b].[none:COUNTRY/TERRITORY:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:COUNTRY/TERRITORY:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:COUNTRY/TERRITORY:nk]' member='&quot;Australia&quot;' />
+                <groupfilter function='member' level='[none:COUNTRY/TERRITORY:nk]' member='&quot;Belgium&quot;' />
+                <groupfilter function='member' level='[none:COUNTRY/TERRITORY:nk]' member='&quot;Brazil&quot;' />
+                <groupfilter function='member' level='[none:COUNTRY/TERRITORY:nk]' member='&quot;Denmark&quot;' />
+                <groupfilter function='member' level='[none:COUNTRY/TERRITORY:nk]' member='&quot;France&quot;' />
+                <groupfilter function='member' level='[none:COUNTRY/TERRITORY:nk]' member='&quot;Italy&quot;' />
+                <groupfilter function='member' level='[none:COUNTRY/TERRITORY:nk]' member='&quot;Netherlands&quot;' />
+                <groupfilter function='member' level='[none:COUNTRY/TERRITORY:nk]' member='&quot;Poland&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0rg77fw1j0s6ca12tl9uj0qdpq8b].[none:COUNTRY/TERRITORY:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0rg77fw1j0s6ca12tl9uj0qdpq8b].[sum:Number:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0rg77fw1j0s6ca12tl9uj0qdpq8b].[none:COUNTRY/TERRITORY:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0rg77fw1j0s6ca12tl9uj0qdpq8b].[sum:Number:qk]' scope='cols' value='Record Count' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0rg77fw1j0s6ca12tl9uj0qdpq8b].[none:COUNTRY/TERRITORY:nk]</rows>
+        <cols>[federated.0rg77fw1j0s6ca12tl9uj0qdpq8b].[sum:Number:qk]</cols>
+      </table>
+      <simple-id uuid='{D64A2375-3BEE-4239-A36A-62EED76A2070}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='&lt;Scopus Robot animal husbandry Countries Documents by Country or Territory&gt;'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0rg77fw1j0s6ca12tl9uj0qdpq8b].[none:COUNTRY/TERRITORY:nk]</field>
+            <field>[federated.0rg77fw1j0s6ca12tl9uj0qdpq8b].[none:Number:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6DD16A69-8324-4111-BA35-7F1807E56B1B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='&lt;Scopus Robot animal husbandry Countries Documents by Country or Territory&gt;' width='192'>
+      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
+      YII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

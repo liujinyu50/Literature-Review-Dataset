@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0812.0353                               -->
+<workbook original-version='18.1' source-build='2022.2.1 (20222.22.0812.0353)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (Web of Science Robot animal husbandry Year Data)' inline='true' name='federated.1xjeunx0y9unli16bntek0jv4sjo' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Web of Science Robot animal husbandry Year Data' name='excel-direct.1db70ea0m7cdad19fwa2e13eizsj'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/13653/OneDrive - Cardiff Metropolitan University/Eureka Robotics Centre/PhD 研究/畜牧业/PhD Meeting/7/Data/Web of Science Robot animal husbandry Year Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1db70ea0m7cdad19fwa2e13eizsj' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B46:no:A1:B46:0' header='yes' outcome='6'>
+            <column datatype='date' date-parse-format='yyyy' name='Publication Years' ordinal='0' />
+            <column datatype='integer' name='Record Count' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1db70ea0m7cdad19fwa2e13eizsj' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B46:no:A1:B46:0' header='yes' outcome='6'>
+            <column datatype='date' date-parse-format='yyyy' name='Publication Years' ordinal='0' />
+            <column datatype='integer' name='Record Count' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B46:no:A1:B46:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Publication Years</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Publication Years]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Publication Years</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_9289A5873BB248DEB8C7BB6D8D4B16EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Record Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Record Count]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Record Count</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_9289A5873BB248DEB8C7BB6D8D4B16EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='integer' name='[Record Count]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_9289A5873BB248DEB8C7BB6D8D4B16EA]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_9289A5873BB248DEB8C7BB6D8D4B16EA'>
+            <properties context=''>
+              <relation connection='excel-direct.1db70ea0m7cdad19fwa2e13eizsj' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:B46:no:A1:B46:0' header='yes' outcome='6'>
+                  <column datatype='date' date-parse-format='yyyy' name='Publication Years' ordinal='0' />
+                  <column datatype='integer' name='Record Count' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run><![CDATA[<Web of Science Robot animal husbandry Documents by Years>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Web of Science Robot animal husbandry Year Data)' name='federated.1xjeunx0y9unli16bntek0jv4sjo' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1xjeunx0y9unli16bntek0jv4sjo'>
+            <column datatype='date' name='[Publication Years]' role='dimension' type='ordinal' />
+            <column aggregation='Sum' datatype='integer' name='[Record Count]' role='dimension' type='ordinal' />
+            <column-instance column='[Record Count]' derivation='Sum' name='[sum:Record Count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Publication Years]' derivation='Year-Trunc' name='[tyr:Publication Years:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1xjeunx0y9unli16bntek0jv4sjo].[tyr:Publication Years:qk]' scope='cols' value='Year of Publication' />
+            <format attr='title' class='0' field='[federated.1xjeunx0y9unli16bntek0jv4sjo].[sum:Record Count:qk]' scope='rows' value='Record Count' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1xjeunx0y9unli16bntek0jv4sjo].[sum:Record Count:qk]</rows>
+        <cols>[federated.1xjeunx0y9unli16bntek0jv4sjo].[tyr:Publication Years:qk]</cols>
+      </table>
+      <simple-id uuid='{DFF5CF83-6410-4F22-AE90-9F4AB98040F2}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1xjeunx0y9unli16bntek0jv4sjo].[:Measure Names]</field>
+            <field>[federated.1xjeunx0y9unli16bntek0jv4sjo].[none:Publication Years:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{582A0537-BAD4-4083-A3CC-4A9623879858}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
